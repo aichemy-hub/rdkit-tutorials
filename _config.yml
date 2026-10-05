@@ -11,7 +11,7 @@ execute:
   timeout: 600
 
 repository:
-  url: https://github.com/dylancjohn/rdkit-tutorials
+  url: https://github.com/aichemy-hub/rdkit-tutorials
   branch: master
 
 launch_buttons:
@@ -24,4 +24,4 @@ html:
   use_edit_page_button: false
   home_page_in_navbar: true
 
-exclude_patterns: [_build, data, README.md, "**.ipynb_checkpoints"]
+exclude_patterns: [_build, data, "**.ipynb_checkpoints"]

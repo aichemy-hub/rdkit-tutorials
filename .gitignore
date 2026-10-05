@@ -1,2 +1,6 @@
 notebooks/Introduction_Cheminformatics.ipynb
 _build/
+
+# Files written when running notebook 3
+notebooks/drug_properties.csv
+notebooks/sulfa_drugs.sdf
