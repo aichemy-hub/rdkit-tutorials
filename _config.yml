@@ -1,0 +1,27 @@
+# Jupyter Book settings: https://jupyterbook.org/en/stable/customize/config.html
+title: RDKit Tutorials
+author: RDKit Workshop
+copyright: "2026"
+only_build_toc_files: true
+
+execute:
+  # Run every notebook when the site is built, so pages show drawings and plots.
+  execute_notebooks: force
+  allow_errors: true
+  timeout: 600
+
+repository:
+  url: https://github.com/dylancjohn/rdkit-tutorials
+  branch: master
+
+launch_buttons:
+  colab_url: https://colab.research.google.com
+  notebook_interface: classic
+
+html:
+  use_repository_button: true
+  use_issues_button: false
+  use_edit_page_button: false
+  home_page_in_navbar: true
+
+exclude_patterns: [_build, data, README.md, "**.ipynb_checkpoints"]

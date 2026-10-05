@@ -1,0 +1,9 @@
+# Table of contents: https://jupyterbook.org/en/stable/structure/toc.html
+format: jb-book
+root: intro
+chapters:
+  - file: notebooks/001_ReadingMolecules1
+  - file: notebooks/002_SMARTS_SubstructureMatching
+  - file: notebooks/003_RDKit_pandas_support
+  - file: notebooks/004_Chemical_space_analysis_and_visualization
+  - file: notebooks/005_RDKit_Machine_Learning

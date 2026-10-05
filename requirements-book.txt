@@ -1,0 +1,6 @@
+jupyter-book<2
+rdkit
+pandas
+numpy
+matplotlib
+scikit-learn
