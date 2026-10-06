@@ -1,6 +1,6 @@
-jupyter-book<2
-rdkit
-pandas
-numpy
-matplotlib
-scikit-learn
+jupyter-book==1.0.4.post1
+rdkit==2026.3.6
+pandas==3.0.6
+numpy==2.5.3
+matplotlib==3.11.2
+scikit-learn==1.9.1

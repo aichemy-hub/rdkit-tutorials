@@ -1,13 +1,14 @@
 # Jupyter Book settings: https://jupyterbook.org/en/stable/customize/config.html
 title: RDKit Tutorials
-author: RDKit Workshop
+author: Pablo Graf and Dylan John
+logo: images/logo.png
 copyright: "2026"
 only_build_toc_files: true
 
 execute:
   # Run every notebook when the site is built, so pages show drawings and plots.
   execute_notebooks: force
-  allow_errors: true
+  allow_errors: false
   timeout: 600
 
 repository:

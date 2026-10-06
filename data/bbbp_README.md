@@ -1,6 +1,6 @@
 # BBBP dataset for notebook 5
 
-`bbbp.csv` is an unmodified copy of the MoleculeNet BBBP (blood–brain barrier penetration) dataset, used in `notebooks/005_RDKit_Machine_Learning.ipynb`.
+`bbbp.csv` is an unmodified copy of the MoleculeNet BBBP (blood–brain barrier penetration) dataset, used in `notebooks/05_machine_learning.ipynb`.
 
 - Source: https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/BBBP.csv
 - Downloaded: 2026-10-01.

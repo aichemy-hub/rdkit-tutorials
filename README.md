@@ -25,11 +25,11 @@ Cells marked **Exercise** are for you to try. A hidden solution follows each one
 
 | | Notebook | What you'll learn | |
 | --- | --- | --- | --- |
-| 1 | [Writing SMILES](notebooks/001_ReadingMolecules1.ipynb) | Turning text into molecules, drawing them, atoms and bonds | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aichemy-hub/rdkit-tutorials/blob/master/notebooks/001_ReadingMolecules1.ipynb) |
-| 2 | [SMARTS and substructure matching](notebooks/002_SMARTS_SubstructureMatching.ipynb) | Searching molecules for functional groups | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aichemy-hub/rdkit-tutorials/blob/master/notebooks/002_SMARTS_SubstructureMatching.ipynb) |
-| 3 | [RDKit and pandas](notebooks/003_RDKit_pandas_support.ipynb) | Working with tables of molecules and descriptors | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aichemy-hub/rdkit-tutorials/blob/master/notebooks/003_RDKit_pandas_support.ipynb) |
-| 4 | [Exploring chemical space](notebooks/004_Chemical_space_analysis_and_visualization.ipynb) | Fingerprints, similarity and PCA plots | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aichemy-hub/rdkit-tutorials/blob/master/notebooks/004_Chemical_space_analysis_and_visualization.ipynb) |
-| 5 | [From molecules to a machine-learning model](notebooks/005_RDKit_Machine_Learning.ipynb) | Predicting blood–brain barrier permeability | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aichemy-hub/rdkit-tutorials/blob/master/notebooks/005_RDKit_Machine_Learning.ipynb) |
+| 1 | [Writing SMILES with RDKit](notebooks/01_writing_smiles.ipynb) | Turning text into molecules, drawing them, atoms and bonds | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aichemy-hub/rdkit-tutorials/blob/master/notebooks/01_writing_smiles.ipynb) |
+| 2 | [SMARTS and substructure matching](notebooks/02_smarts_substructure_matching.ipynb) | Searching molecules for functional groups | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aichemy-hub/rdkit-tutorials/blob/master/notebooks/02_smarts_substructure_matching.ipynb) |
+| 3 | [RDKit and pandas](notebooks/03_rdkit_and_pandas.ipynb) | Working with tables of molecules and descriptors | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aichemy-hub/rdkit-tutorials/blob/master/notebooks/03_rdkit_and_pandas.ipynb) |
+| 4 | [Exploring chemical space](notebooks/04_chemical_space.ipynb) | Fingerprints, similarity and PCA plots | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aichemy-hub/rdkit-tutorials/blob/master/notebooks/04_chemical_space.ipynb) |
+| 5 | [From molecules to a machine-learning model](notebooks/05_machine_learning.ipynb) | Predicting blood–brain barrier permeability | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/aichemy-hub/rdkit-tutorials/blob/master/notebooks/05_machine_learning.ipynb) |
 
 Each notebook builds on the ones before it, so work through them in order.
 
@@ -43,15 +43,17 @@ open the notebooks in Jupyter or VS Code:
 pip install rdkit pandas numpy matplotlib scikit-learn jupyter
 ```
 
-## Editing the website
+## Credits and licence
 
-The website is built from this README and the notebooks with [Jupyter Book](https://jupyterbook.org),
-and is rebuilt automatically by GitHub Actions on every push to `master`
-(see `.github/workflows/deploy-book.yml`). To preview it locally:
+This course is maintained by Pablo Graf and Dylan John. Notebooks 1–4 are adapted from the
+[RDKit tutorials](https://github.com/rdkit/rdkit-tutorials):
 
-```bash
-pip install -r requirements-book.txt
-jupyter-book build .
-```
+- Notebook 1 from "Reading and writing molecules 1" by Greg Landrum (2016)
+- Notebook 2 from "SMARTS substructure matching" by Curt Fischer (2016)
+- Notebooks 3 and 4 from "RDKit pandas support" and "Chemical space analysis and visualization" by Samo Turk (2017)
 
-Then open `_build/html/index.html`. This README is the landing page, and the page order is set in `_toc.yml`.
+Notebook 5 was written for this course.
+
+As with the original tutorials, this work is licensed under the
+[Creative Commons Attribution-ShareAlike 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/).
+See [LICENSE](https://github.com/aichemy-hub/rdkit-tutorials/blob/master/LICENSE).
