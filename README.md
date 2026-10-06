@@ -52,7 +52,7 @@ This course is maintained by Pablo Graf and Dylan John. Notebooks 1–4 are adap
 - Notebook 2 from "SMARTS substructure matching" by Curt Fischer (2016)
 - Notebooks 3 and 4 from "RDKit pandas support" and "Chemical space analysis and visualization" by Samo Turk (2017)
 
-Notebook 5 was written for this course.
+Notebook 5 was adapted from Notebook 3 of Dan Davies' [Intro to ML for Chemists](https://aichemy-hub.github.io/intro_to_ml_for_chemists/) course
 
 As with the original tutorials, this work is licensed under the
 [Creative Commons Attribution-ShareAlike 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/).
